@@ -22,5 +22,11 @@ public class App {
 
         Boolean r = pilha_pratos.empty();
         System.out.println("A pilha está vazia: "+r);
+
+        System.out.println("Elementos da pilha (do topo até a base)");
+
+        for(int i=pilha_pratos.size()-1;i>=0;i--){
+            System.out.println(pilha_pratos.get(i));
+        }
     }
 }
